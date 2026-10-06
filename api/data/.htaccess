@@ -1,0 +1,4 @@
+# The SQLite database lives here. Nothing in this directory should ever be
+# reachable over HTTP.
+
+Require all denied
