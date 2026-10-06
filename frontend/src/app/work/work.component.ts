@@ -51,6 +51,16 @@ export class WorkComponent {
         'A custom website and management system built to give the organization control over its content while creating a clear digital home for its work and initiatives.',
     },
     {
+      client: 'Entrance Exam Practice System',
+      category: 'Desktop Application',
+      domain: null,
+      url: null,
+      image: '/mock.png',
+      tags: ['Desktop App', 'Exam Prep', 'Performance Tracking'],
+      description:
+        'A desktop application designed for students to prepare for entrance exams through practice questions, subject-based tests, timed exams, and performance tracking — all managed through a simple and secure system.',
+    },
+    {
       client: 'Kale Hiwot Church',
       category: 'Church Website & Digital Platform',
       domain: null,

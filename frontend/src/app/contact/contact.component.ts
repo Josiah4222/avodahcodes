@@ -15,7 +15,7 @@ export class ContactComponent {
   private readonly http = inject(HttpClient);
   private readonly endpoint = '/api/contact/';
 
-  readonly email = 'hello@avodah.studio';
+  readonly email = 'avodahcodes@gmail.com';
 
   readonly phones = [
     { label: '+251 94 236 5100', href: 'tel:+251942365100' },

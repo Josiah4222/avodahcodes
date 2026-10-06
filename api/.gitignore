@@ -1,5 +1,0 @@
-# The SQLite database is created on first request. Never commit it.
-data/*.sqlite
-data/*.sqlite-journal
-data/*.sqlite-wal
-data/*.sqlite-shm

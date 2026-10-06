@@ -1,37 +1,54 @@
 ﻿<!-- ── HEADER ── -->
-<header class="fixed top-0 z-50 w-full border-b border-white/10 bg-[#030712]/90 backdrop-blur-md">
-  <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 md:px-10">
-    <a routerLink="/" class="flex items-center gap-3">
-      <img src="/logo.png" alt="Avodah Codes" class="h-8 w-auto invert" />
-      <span class="font-sans text-xs font-semibold uppercase tracking-[0.18em] text-white">Avodah Codes</span>
+<header class="fixed inset-x-0 top-0 z-50 border-b border-outline-variant/70 bg-surface/80 backdrop-blur-md">
+  <div class="mx-auto flex w-full max-w-[1200px] items-center justify-between px-margin-mobile py-3.5 sm:px-margin lg:px-margin-desktop">
+
+    <!-- brand -->
+    <a routerLink="/" class="group flex items-center gap-3">
+      <img src="/avodahCC.jpg" alt="Avodah Codes" class="h-9 w-9 shrink-0 rounded-lg object-cover" />
+      <span class="font-display text-[15px] font-semibold tracking-tight text-on-surface">Avodah Codes</span>
     </a>
-    <nav class="hidden items-center gap-10 md:flex">
-      <a routerLink="/" class="font-sans text-xs font-medium uppercase tracking-[0.14em] text-white/50 transition-colors hover:text-white">Home</a>
-      <a routerLink="/work" class="font-sans text-xs font-medium uppercase tracking-[0.14em] text-white/50 transition-colors hover:text-white">Portfolio</a>
-      <a routerLink="/services" class="font-sans text-xs font-medium uppercase tracking-[0.14em] text-white transition-colors">Services</a>
-      
-      <a routerLink="/contact" class="font-sans text-xs font-semibold uppercase tracking-[0.14em] text-[#030712] bg-white px-5 py-2 transition-colors hover:bg-white/90">Start a Project</a>
+
+    <!-- nav -->
+    <nav class="hidden items-center gap-space-lg md:flex">
+      <a routerLink="/" routerLinkActive="text-secondary" class="font-code-sm text-code-sm uppercase tracking-[0.14em] text-on-surface-variant transition-colors hover:text-on-surface">Home</a>
+      <a routerLink="/work" routerLinkActive="text-secondary" class="font-code-sm text-code-sm uppercase tracking-[0.14em] text-on-surface-variant transition-colors hover:text-on-surface">Portfolio</a>
+      <a routerLink="/services" routerLinkActive="text-secondary" class="font-code-sm text-code-sm uppercase tracking-[0.14em] text-on-surface-variant transition-colors hover:text-on-surface">Services</a>
     </nav>
+
+    <!-- CTA -->
+    <a routerLink="/contact"
+      class="inline-flex items-center gap-2 rounded-lg bg-secondary px-space-md py-2 font-code-sm text-code-sm font-semibold uppercase tracking-[0.14em] text-on-secondary transition-colors hover:bg-secondary-fixed hover:text-on-secondary-fixed">
+      Start a Project
+      <span class="material-symbols-outlined text-[14px]">arrow_outward</span>
+    </a>
+
   </div>
 </header>
 
-<main class="pt-[65px] font-sans">
+<main class="bg-surface font-body-lg text-body-lg text-on-surface">
 
   <!-- ── HERO ── -->
-  <section class="relative overflow-hidden bg-[#030712]">
-    <div class="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:72px_72px]"></div>
-    <div class="relative mx-auto max-w-6xl px-6 pb-24 pt-32 md:px-10">
-      <p class="mb-6 font-mono text-xs uppercase tracking-[0.2em] text-white/30">Services</p>
-      <h1 class="font-sans text-[clamp(2.75rem,7vw,6rem)] font-semibold leading-[1.05] tracking-[-0.03em] text-white">
-        We build what<br />the work requires.
+  <section class="relative overflow-hidden">
+    <!-- subtle grid texture -->
+    <div class="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(164,204,229,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(164,204,229,0.05)_1px,transparent_1px)] bg-[size:64px_64px]"></div>
+
+    <div class="relative mx-auto flex min-h-[70vh] w-full max-w-[1200px] flex-col justify-center px-margin-mobile pb-24 pt-32 sm:px-margin lg:px-margin-desktop">
+
+      <p class="mb-8 font-code-sm text-code-sm uppercase tracking-[0.2em] text-secondary">[ 01 / Services ]</p>
+
+      <h1 class="max-w-[900px] font-display text-display-mobile leading-[1.05] tracking-[-0.03em] text-on-surface md:text-display">
+        We build what<br /><span class="text-secondary">the work requires.</span>
       </h1>
-      <p class="mt-8 max-w-2xl font-sans text-lg leading-relaxed text-white/50">
-        Every organization has different problems. So we don't sell a fixed list of software packages. We understand what needs to be done, then build the right digital solution around it.
-      </p>
+
+      <div class="mt-8 max-w-2xl font-body-lg text-body-lg leading-relaxed text-on-surface-variant">
+        <p>Every organization has different problems. So we don't sell a fixed list of software packages. We understand what needs to be done, then build the right digital solution around it.</p>
+      </div>
+
       <!-- quick-jump nav -->
       <div class="mt-12 flex flex-wrap gap-3">
         @for (s of services; track s.id) {
-          <a [href]="'#' + s.id" class="border border-white/20 px-4 py-2 font-mono text-xs uppercase tracking-widest text-white/50 transition-colors hover:border-white/50 hover:text-white">
+          <a [href]="'#' + s.id"
+            class="rounded-lg border border-outline-variant px-4 py-2 font-code-sm text-code-sm uppercase tracking-widest text-on-surface-variant transition-colors hover:border-secondary hover:text-secondary">
             {{ s.label }}
           </a>
         }
@@ -40,80 +57,86 @@
   </section>
 
   <!-- ── SERVICE BLOCKS ── -->
-  @for (s of services; track s.id; let odd = $odd) {
-    <section [id]="s.id" [class]="odd ? 'bg-gray-950 py-32' : 'bg-white py-32'">
-      <div class="mx-auto max-w-6xl px-6 md:px-10">
-        <div class="grid gap-16 md:grid-cols-[1fr_2fr]">
+  @for (s of services; track s.id; let i = $index, odd = $odd) {
+    <section [id]="s.id" class="scroll-mt-20 border-t border-outline-variant/60 py-24" [class.bg-surface]="odd" [class.bg-surface-container-low]="!odd">
+      <div class="mx-auto grid w-full max-w-[1200px] gap-space-xl px-margin-mobile sm:px-margin lg:grid-cols-[240px_1fr] lg:px-margin-desktop">
 
-          <!-- label col -->
-          <div class="flex flex-col gap-3">
-            <p [class]="odd ? 'font-mono text-xs uppercase tracking-[0.2em] text-white/30' : 'font-mono text-xs uppercase tracking-[0.2em] text-gray-400'">
-              {{ s.label }}
-            </p>
-          </div>
-
-          <!-- content col -->
-          <div>
-            <h2 [class]="odd ? 'font-sans text-[clamp(1.75rem,4vw,3rem)] font-semibold leading-[1.15] tracking-[-0.025em] text-white' : 'font-sans text-[clamp(1.75rem,4vw,3rem)] font-semibold leading-[1.15] tracking-[-0.025em] text-gray-950'">
-              {{ s.tagline }}
-            </h2>
-
-            <p [class]="odd ? 'mt-6 font-sans text-lg leading-relaxed text-white/55' : 'mt-6 font-sans text-lg leading-relaxed text-gray-500'">
-              {{ s.intro }}
-            </p>
-            <p [class]="odd ? 'mt-3 font-sans text-lg leading-relaxed text-white/55' : 'mt-3 font-sans text-lg leading-relaxed text-gray-500'">
-              {{ s.body }}
-            </p>
-
-            @if (s.bestFor) {
-              <div class="mt-6 flex flex-wrap items-center gap-2">
-                <span [class]="odd ? 'font-mono text-xs uppercase tracking-widest text-white/30' : 'font-mono text-xs uppercase tracking-widest text-gray-400'">Best for:</span>
-                @for (b of s.bestFor; track b) {
-                  <span [class]="odd ? 'border border-white/15 px-3 py-1 font-mono text-xs text-white/40' : 'border border-gray-200 px-3 py-1 font-mono text-xs text-gray-400'">{{ b }}</span>
-                }
-              </div>
-            }
-
-            <div class="mt-10">
-              <p [class]="odd ? 'mb-5 font-mono text-xs uppercase tracking-[0.18em] text-white/30' : 'mb-5 font-mono text-xs uppercase tracking-[0.18em] text-gray-400'">
-                {{ s.id === 'existing' ? 'Support includes' : 'What we can build' }}
-              </p>
-              <ul class="grid gap-3 sm:grid-cols-2">
-                @for (item of s.items; track item) {
-                  <li class="flex items-start gap-3">
-                    <span [class]="odd ? 'mt-1 h-px w-4 shrink-0 bg-white/25' : 'mt-1 h-px w-4 shrink-0 bg-gray-300'"></span>
-                    <span [class]="odd ? 'font-sans text-sm text-white/70' : 'font-sans text-sm text-gray-600'">{{ item }}</span>
-                  </li>
-                }
-              </ul>
-            </div>
-          </div>
-
+        <!-- label col -->
+        <div class="flex items-start gap-8 lg:flex-col lg:gap-3">
+          <p class="font-display text-headline-lg font-semibold leading-none text-secondary">0{{ i + 1 }}</p>
+          <p class="font-code-sm text-code-sm uppercase tracking-[0.2em] text-on-surface-variant">{{ s.label }}</p>
         </div>
+
+        <!-- content col -->
+        <div>
+          <h2 class="max-w-2xl font-display text-headline-lg-mobile leading-[1.15] tracking-[-0.025em] text-on-surface md:text-headline-lg">
+            {{ s.tagline }}
+          </h2>
+
+          <div class="mt-6 max-w-2xl space-y-3 font-body-lg text-body-lg leading-relaxed text-on-surface-variant">
+            <p>{{ s.intro }}</p>
+            <p>{{ s.body }}</p>
+          </div>
+
+          @if (s.bestFor) {
+            <div class="mt-6 flex flex-wrap items-center gap-2">
+              <span class="font-code-sm text-code-sm uppercase tracking-widest text-on-surface-variant">Best for:</span>
+              @for (b of s.bestFor; track b) {
+                <span class="rounded border border-outline-variant px-3 py-1 font-code-sm text-code-sm text-on-surface-variant">{{ b }}</span>
+              }
+            </div>
+          }
+
+          <div class="mt-10">
+            <p class="mb-5 font-code-sm text-code-sm uppercase tracking-[0.18em] text-secondary">
+              {{ s.id === 'existing' ? 'Support includes' : 'What we can build' }}
+            </p>
+            <ul class="grid gap-3 sm:grid-cols-2">
+              @for (item of s.items; track item) {
+                <li class="flex items-start gap-3">
+                  <span class="mt-2.5 h-px w-4 shrink-0 bg-secondary/60"></span>
+                  <span class="font-body-md text-body-md text-on-surface-variant">{{ item }}</span>
+                </li>
+              }
+            </ul>
+          </div>
+        </div>
+
       </div>
     </section>
   }
 
-  <!-- ── CTA ── -->
-  <section class="bg-[#030712] py-32">
-    <div class="mx-auto max-w-6xl px-6 md:px-10">
-      <div class="grid gap-12 md:grid-cols-[2fr_1fr] md:items-end">
-        <div>
-          <p class="font-mono text-xs uppercase tracking-[0.2em] text-white/30">Let's talk</p>
-          <h2 class="mt-6 font-sans text-[clamp(2rem,5vw,3.5rem)] font-semibold leading-[1.1] tracking-[-0.025em] text-white">
-            One problem.<br />One right solution.
-          </h2>
-          <div class="mt-6 space-y-3 font-sans text-lg leading-relaxed text-white/55">
-            <p>You don't need to know whether you need a website, a system, or a completely new product.</p>
-            <p>Tell us what you're trying to solve. We'll help determine what should be built — and why.</p>
-          </div>
+  <!-- ── CTA / DIRECT LINE ── -->
+  <section id="start" class="border-t border-outline-variant/60 bg-surface-container py-24">
+    <div class="mx-auto grid w-full max-w-[1200px] gap-space-xl px-margin-mobile sm:px-margin lg:grid-cols-[2fr_1fr] lg:px-margin-desktop">
+      <div>
+        <p class="font-code-sm text-code-sm uppercase tracking-[0.2em] text-secondary">Let's talk</p>
+        <h2 class="mt-6 max-w-xl font-display text-headline-lg-mobile leading-[1.1] tracking-[-0.025em] text-on-surface md:text-headline-lg">
+          One problem.<br />One right solution.
+        </h2>
+        <div class="mt-8 space-y-3 font-body-lg text-body-lg text-on-surface-variant">
+          <p>You don't need to know whether you need a website, a system, or a completely new product.</p>
+          <p>Tell us what you're trying to solve. We'll help determine what should be built &mdash; and why.</p>
         </div>
-        <div class="flex md:justify-end">
+        <div class="mt-12">
           <a routerLink="/contact"
-            class="inline-flex items-center gap-3 bg-white px-8 py-4 font-sans text-sm font-semibold uppercase tracking-[0.12em] text-[#030712] transition-colors hover:bg-white/90">
-            Start a Project
-            <span class="text-base leading-none">→</span>
+            class="inline-flex items-center gap-3 rounded-lg bg-secondary px-8 py-4 font-code-sm text-code-sm font-semibold uppercase tracking-[0.12em] text-on-secondary transition-colors hover:bg-secondary-fixed hover:text-on-secondary-fixed">
+            Start a Conversation
+            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
           </a>
+        </div>
+      </div>
+
+      <div class="hidden flex-col items-center justify-center md:flex">
+        <div class="w-full rounded-lg border border-outline-variant bg-surface-container-low p-8">
+          <p class="font-code-sm text-code-sm uppercase tracking-widest text-on-surface-variant">Direct line</p>
+          <a href="mailto:avodahcodes&#64;gmail.com" class="mt-3 block font-body-lg text-body-lg text-secondary underline underline-offset-4 transition-opacity hover:opacity-80">
+            avodahcodes&#64;gmail.com
+          </a>
+          <div class="mt-5 flex flex-col gap-1.5 border-t border-outline-variant/60 pt-5">
+            <a href="tel:+251942365100" class="font-code-sm text-code-sm text-on-surface-variant transition-colors hover:text-secondary">+251 94 236 5100</a>
+            <a href="tel:+251910944444" class="font-code-sm text-code-sm text-on-surface-variant transition-colors hover:text-secondary">+251 91 094 4444</a>
+          </div>
         </div>
       </div>
     </div>
@@ -122,57 +145,61 @@
 </main>
 
 <!-- ── FOOTER ── -->
-<footer class="bg-gray-950">
-  <div class="mx-auto max-w-6xl px-6 md:px-10">
+<footer class="border-t border-outline-variant/60 bg-surface">
+  <div class="mx-auto w-full max-w-[1200px] px-margin-mobile sm:px-margin lg:px-margin-desktop">
 
     <!-- top row -->
-    <div class="grid gap-12 border-b border-white/10 py-16 md:grid-cols-[2fr_1fr_1fr_1fr]">
+    <div class="grid gap-12 border-b border-outline-variant/60 py-16 md:grid-cols-[2fr_1fr_1fr_1fr]">
 
       <!-- brand -->
       <div>
         <div class="flex items-center gap-3">
-          <img src="/logo.png" alt="Avodah Codes" class="h-8 w-auto invert" />
-          <span class="font-sans text-sm font-semibold uppercase tracking-[0.18em] text-white">Avodah Codes</span>
+          <img src="/avodahCC.jpg" alt="Avodah Codes" class="h-9 w-9 shrink-0 rounded-lg object-cover" />
+          <span class="flex flex-col leading-none">
+            <span class="font-display text-[15px] font-semibold tracking-tight text-on-surface">Avodah Codes</span>
+            <span class="mt-1 font-code-sm text-[9px] uppercase tracking-[0.22em] text-on-surface-variant">Design &middot; Engineering</span>
+          </span>
         </div>
-        <p class="mt-4 max-w-xs font-sans text-sm leading-relaxed text-white/40">
+        <p class="mt-4 max-w-xs font-body-md text-body-md leading-relaxed text-on-surface-variant">
           Building websites, systems, and digital products for businesses and organizations.
         </p>
         <div class="mt-6 flex flex-col gap-2">
-          <a href="mailto:hello&#64;avodah.studio" class="font-mono text-xs text-white/40 transition-colors hover:text-white">hello&#64;avodah.studio</a>
-          <a href="tel:+251942365100" class="font-mono text-xs text-white/40 transition-colors hover:text-white">+251 94 236 5100</a>
-          <a href="tel:+251910944444" class="font-mono text-xs text-white/40 transition-colors hover:text-white">+251 91 094 4444</a>
+          <a href="mailto:avodahcodes&#64;gmail.com" class="font-code-sm text-code-sm text-on-surface-variant transition-colors hover:text-secondary">avodahcodes&#64;gmail.com</a>
+          <a href="tel:+251942365100" class="font-code-sm text-code-sm text-on-surface-variant transition-colors hover:text-secondary">+251 94 236 5100</a>
+          <a href="tel:+251910944444" class="font-code-sm text-code-sm text-on-surface-variant transition-colors hover:text-secondary">+251 91 094 4444</a>
         </div>
       </div>
 
       <!-- nav -->
       <div>
-        <p class="mb-5 font-mono text-xs uppercase tracking-[0.18em] text-white/25">Pages</p>
+        <p class="mb-5 font-code-sm text-code-sm uppercase tracking-[0.18em] text-on-surface-variant">Pages</p>
         <ul class="space-y-3">
-          <li><a routerLink="/" class="font-sans text-sm text-white/50 transition-colors hover:text-white">Home</a></li>
-          <li><a routerLink="/work" class="font-sans text-sm text-white/50 transition-colors hover:text-white">Portfolio</a></li>
-          <li><a routerLink="/services" class="font-sans text-sm text-white/50 transition-colors hover:text-white">Services</a></li>
-          <li><a routerLink="/studio" class="font-sans text-sm text-white/50 transition-colors hover:text-white">Studio</a></li>
+          <li><a routerLink="/" class="font-body-md text-body-md text-on-surface-variant transition-colors hover:text-secondary">Home</a></li>
+          <li><a routerLink="/work" class="font-body-md text-body-md text-on-surface-variant transition-colors hover:text-secondary">Portfolio</a></li>
+          <li><a routerLink="/services" class="font-body-md text-body-md text-on-surface-variant transition-colors hover:text-secondary">Services</a></li>
+          <li><a routerLink="/studio" class="font-body-md text-body-md text-on-surface-variant transition-colors hover:text-secondary">Studio</a></li>
         </ul>
       </div>
 
       <!-- services -->
       <div>
-        <p class="mb-5 font-mono text-xs uppercase tracking-[0.18em] text-white/25">What we build</p>
+        <p class="mb-5 font-code-sm text-code-sm uppercase tracking-[0.18em] text-on-surface-variant">What we build</p>
         <ul class="space-y-3">
-          <li><span class="font-sans text-sm text-white/40">Websites</span></li>
-          <li><span class="font-sans text-sm text-white/40">Business Systems</span></li>
-          <li><span class="font-sans text-sm text-white/40">Mobile Applications</span></li>
-          <li><span class="font-sans text-sm text-white/40">Digital Products</span></li>
+          <li><span class="font-body-md text-body-md text-on-surface-variant">Websites</span></li>
+          <li><span class="font-body-md text-body-md text-on-surface-variant">Business Systems</span></li>
+          <li><span class="font-body-md text-body-md text-on-surface-variant">Mobile Applications</span></li>
+          <li><span class="font-body-md text-body-md text-on-surface-variant">Digital Products</span></li>
         </ul>
       </div>
 
       <!-- start -->
       <div>
-        <p class="mb-5 font-mono text-xs uppercase tracking-[0.18em] text-white/25">Start a project</p>
-        <p class="font-sans text-sm leading-relaxed text-white/40">Have something that needs building?</p>
+        <p class="mb-5 font-code-sm text-code-sm uppercase tracking-[0.18em] text-on-surface-variant">Start a project</p>
+        <p class="font-body-md text-body-md leading-relaxed text-on-surface-variant">Have something that needs building?</p>
         <a routerLink="/contact"
-          class="mt-5 inline-flex items-center gap-2 border border-white/20 px-5 py-2.5 font-sans text-sm font-medium text-white transition-colors hover:border-white hover:bg-white hover:text-gray-950">
-          Get in touch →
+          class="mt-5 inline-flex items-center gap-2 rounded-lg border border-outline-variant px-5 py-2.5 font-code-sm text-code-sm text-on-surface transition-colors hover:border-secondary hover:text-secondary">
+          Get in touch
+          <span class="material-symbols-outlined text-[14px]">arrow_outward</span>
         </a>
       </div>
 
@@ -180,8 +207,8 @@
 
     <!-- bottom row -->
     <div class="flex flex-col justify-between gap-3 py-6 md:flex-row md:items-center">
-      <p class="font-mono text-xs text-white/20">&copy; 2026 Avodah Codes. All rights reserved.</p>
-      <p class="font-mono text-xs text-white/20">Build with purpose.</p>
+      <p class="font-code-sm text-code-sm text-on-surface-variant">&copy; 2026 Avodah Codes. All rights reserved.</p>
+      <p class="font-code-sm text-code-sm text-secondary">Build with purpose.</p>
     </div>
 
   </div>
