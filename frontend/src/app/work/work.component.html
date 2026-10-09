@@ -1,33 +1,8 @@
-﻿<!-- ── HEADER ── -->
-<header class="fixed inset-x-0 top-0 z-50 border-b border-outline-variant/70 bg-surface/80 backdrop-blur-md">
-  <div class="mx-auto flex w-full max-w-[1200px] items-center justify-between px-margin-mobile py-3.5 sm:px-margin lg:px-margin-desktop">
-
-    <!-- brand -->
-    <a routerLink="/" class="group flex items-center gap-3">
-      <img src="/avodahCC.jpg" alt="Avodah Codes" class="h-9 w-9 shrink-0 rounded-lg object-cover" />
-      <span class="font-display text-[15px] font-semibold tracking-tight text-on-surface">Avodah Codes</span>
-    </a>
-
-    <!-- nav -->
-    <nav class="hidden items-center gap-space-lg md:flex">
-      <a routerLink="/" routerLinkActive="text-secondary" class="font-code-sm text-code-sm uppercase tracking-[0.14em] text-on-surface-variant transition-colors hover:text-on-surface">Home</a>
-      <a routerLink="/work" routerLinkActive="text-secondary" class="font-code-sm text-code-sm uppercase tracking-[0.14em] text-on-surface-variant transition-colors hover:text-on-surface">Portfolio</a>
-      <a routerLink="/services" routerLinkActive="text-secondary" class="font-code-sm text-code-sm uppercase tracking-[0.14em] text-on-surface-variant transition-colors hover:text-on-surface">Services</a>
-    </nav>
-
-    <!-- CTA -->
-    <a routerLink="/contact"
-      class="inline-flex items-center gap-2 rounded-lg bg-secondary px-space-md py-2 font-code-sm text-code-sm font-semibold uppercase tracking-[0.14em] text-on-secondary transition-colors hover:bg-secondary-fixed hover:text-on-secondary-fixed">
-      Start a Project
-      <span class="material-symbols-outlined text-[14px]">arrow_outward</span>
-    </a>
-
-  </div>
-</header>
+<app-site-header />
 
 <main class="bg-surface font-body-lg text-body-lg text-on-surface">
 
-  <!-- ── HERO ── -->
+  <!-- -- HERO -- -->
   <section class="relative overflow-hidden">
     <!-- subtle grid texture -->
     <div class="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(164,204,229,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(164,204,229,0.05)_1px,transparent_1px)] bg-[size:64px_64px]"></div>
@@ -50,12 +25,12 @@
       <!-- count -->
       <div class="mt-12 flex items-center gap-3 text-on-surface-variant">
         <span class="h-1.5 w-1.5 rounded-full bg-secondary"></span>
-        <span class="font-code-sm text-code-sm uppercase tracking-[0.18em]">{{ projects.length }} projects to date</span>
+
       </div>
     </div>
   </section>
 
-  <!-- ── PROJECT LIST ── -->
+  <!-- -- PROJECT LIST -- -->
   <section class="border-t border-outline-variant/60 bg-surface py-24">
     <div class="mx-auto w-full max-w-[1200px] px-margin-mobile sm:px-margin lg:px-margin-desktop">
       <div class="mb-12 flex items-end justify-between border-b border-outline-variant/60 pb-8">
@@ -70,7 +45,7 @@
             <!-- browser mockup / tile -->
             <div class="relative aspect-[16/10] w-full overflow-hidden bg-surface-container-highest">
               @if (project.image) {
-                <img [src]="project.image" [alt]="project.client + ' website'" loading="lazy"
+                <img [src]="project.image" [alt]="project.client + ' website'" loading="lazy" decoding="async" width="1200" height="675"
                   class="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]" />
               } @else {
                 <div class="relative flex h-full w-full flex-col items-start justify-between p-6">
@@ -118,7 +93,7 @@
     </div>
   </section>
 
-  <!-- ── CTA / DIRECT LINE ── -->
+  <!-- -- CTA / DIRECT LINE -- -->
   <section id="start" class="border-t border-outline-variant/60 bg-surface-container py-24">
     <div class="mx-auto grid w-full max-w-[1200px] gap-space-xl px-margin-mobile sm:px-margin lg:grid-cols-[2fr_1fr] lg:px-margin-desktop">
       <div>
@@ -135,7 +110,7 @@
           <a routerLink="/contact"
             class="inline-flex items-center gap-3 rounded-lg bg-secondary px-8 py-4 font-code-sm text-code-sm font-semibold uppercase tracking-[0.12em] text-on-secondary transition-colors hover:bg-secondary-fixed hover:text-on-secondary-fixed">
             Start a Conversation
-            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+            <svg class="h-4 w-4 shrink-0" viewBox="0 -960 960 960" fill="currentColor" aria-hidden="true"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
           </a>
         </div>
       </div>
@@ -157,7 +132,7 @@
 
 </main>
 
-<!-- ── FOOTER ── -->
+<!-- -- FOOTER -- -->
 <footer class="border-t border-outline-variant/60 bg-surface">
   <div class="mx-auto w-full max-w-[1200px] px-margin-mobile sm:px-margin lg:px-margin-desktop">
 
@@ -167,10 +142,10 @@
       <!-- brand -->
       <div>
         <div class="flex items-center gap-3">
-          <img src="/avodahCC.jpg" alt="Avodah Codes" class="h-9 w-9 shrink-0 rounded-lg object-cover" />
+          <img src="/avodahCC.jpg" alt="Avodah Codes" width="159" height="144" decoding="async" class="h-9 w-9 shrink-0 rounded-[9999px] object-cover" />
           <span class="flex flex-col leading-none">
             <span class="font-display text-[15px] font-semibold tracking-tight text-on-surface">Avodah Codes</span>
-            <span class="mt-1 font-code-sm text-[9px] uppercase tracking-[0.22em] text-on-surface-variant">Design &middot; Engineering</span>
+            
           </span>
         </div>
         <p class="mt-4 max-w-xs font-body-md text-body-md leading-relaxed text-on-surface-variant">
@@ -190,7 +165,7 @@
           <li><a routerLink="/" class="font-body-md text-body-md text-on-surface-variant transition-colors hover:text-secondary">Home</a></li>
           <li><a routerLink="/work" class="font-body-md text-body-md text-on-surface-variant transition-colors hover:text-secondary">Portfolio</a></li>
           <li><a routerLink="/services" class="font-body-md text-body-md text-on-surface-variant transition-colors hover:text-secondary">Services</a></li>
-          <li><a routerLink="/studio" class="font-body-md text-body-md text-on-surface-variant transition-colors hover:text-secondary">Studio</a></li>
+
         </ul>
       </div>
 
@@ -212,7 +187,7 @@
         <a routerLink="/contact"
           class="mt-5 inline-flex items-center gap-2 rounded-lg border border-outline-variant px-5 py-2.5 font-code-sm text-code-sm text-on-surface transition-colors hover:border-secondary hover:text-secondary">
           Get in touch
-          <span class="material-symbols-outlined text-[14px]">arrow_outward</span>
+          <svg class="h-3.5 w-3.5 shrink-0" viewBox="0 -960 960 960" fill="currentColor" aria-hidden="true"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg>
         </a>
       </div>
 
@@ -226,3 +201,4 @@
 
   </div>
 </footer>
+

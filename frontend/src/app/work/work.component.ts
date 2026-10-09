@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
+import { SiteHeaderComponent } from '../site-header/site-header.component';
 
 @Component({
   selector: 'app-work',
   standalone: true,
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, SiteHeaderComponent],
   templateUrl: './work.component.html',
 })
 export class WorkComponent {
@@ -55,7 +56,7 @@ export class WorkComponent {
       category: 'Desktop Application',
       domain: null,
       url: null,
-      image: '/mock.png',
+      image: '/mock.webp',
       tags: ['Desktop App', 'Exam Prep', 'Performance Tracking'],
       description:
         'A desktop application designed for students to prepare for entrance exams through practice questions, subject-based tests, timed exams, and performance tracking — all managed through a simple and secure system.',

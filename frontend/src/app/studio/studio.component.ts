@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
+import { SiteHeaderComponent } from '../site-header/site-header.component';
 
 @Component({
   selector: 'app-studio',
   standalone: true,
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, SiteHeaderComponent],
   templateUrl: './studio.component.html',
 })
 export class StudioComponent {

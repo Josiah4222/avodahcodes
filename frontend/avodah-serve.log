@@ -1,0 +1,628 @@
+Node.js version v23.11.0 detected.
+Odd numbered Node.js versions will not enter LTS status and should not be used for production. For more information, please see https://nodejs.org/en/about/previous-releases/.
+[1m[33mComponent HMR has been enabled, see https://angular.dev/hmr for more info.[39m[22m
+[33m>[39m Building...
+[32m√[39m Building...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m             [2m | [22m [1mRaw size[22m
+[32mpolyfills.js[39m       [2m | [22m[2mpolyfills[22m         [2m | [22m [36m89.77 kB[39m[2m | [22m
+[32mstyles.css[39m         [2m | [22m[2mstyles[22m            [2m | [22m [36m28.71 kB[39m[2m | [22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m              [2m | [22m  [36m3.04 kB[39m[2m | [22m
+
+[1m [22m                  [2m | [22m[1mInitial total[22m     [2m | [22m[1m121.52 kB[22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m             [2m | [22m [1mRaw size[22m
+[32mchunk-KV63JANO.js[39m  [2m | [22m[2mhome-component[22m    [2m | [22m [36m58.19 kB[39m[2m | [22m
+[32mchunk-SX7KGCVN.js[39m  [2m | [22m[2mcontact-component[22m [2m | [22m [36m48.67 kB[39m[2m | [22m
+[32mchunk-EL7PYUF6.js[39m  [2m | [22m[2mwork-component[22m    [2m | [22m [36m41.63 kB[39m[2m | [22m
+[32mchunk-7OFDMMIY.js[39m  [2m | [22m[2mservices-component[22m[2m | [22m [36m37.18 kB[39m[2m | [22m
+[32mchunk-OHXKIKHE.js[39m  [2m | [22m[2mstudio-component[22m  [2m | [22m [36m28.04 kB[39m[2m | [22m
+
+Application bundle generation complete. [9.228 seconds]
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4300[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m           [2m | [22m[1mRaw size[22m
+[32mstyles.css[39m         [2m | [22m[2mstyles[22m          [2m | [22m[36m28.81 kB[39m[2m | [22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m            [2m | [22m [36m3.04 kB[39m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m           [2m | [22m[1mRaw size[22m
+[32mchunk-BYBHOGMM.js[39m  [2m | [22m[2mstudio-component[22m[2m | [22m[36m32.52 kB[39m[2m | [22m
+
+Application bundle generation complete. [10.595 seconds]
+
+Stylesheet update sent to client(s).
+Component update sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m           [2m | [22m[1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m            [2m | [22m [36m3.04 kB[39m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m           [2m | [22m[1mRaw size[22m
+[32mchunk-OJ2RW6OV.js[39m  [2m | [22m[2mstudio-component[22m[2m | [22m[36m32.10 kB[39m[2m | [22m
+
+Application bundle generation complete. [3.119 seconds]
+
+Component update sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m         [2m | [22m[1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m          [2m | [22m [36m3.04 kB[39m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m         [2m | [22m[1mRaw size[22m
+[32mchunk-BCPCTQER.js[39m  [2m | [22m[2mhome-component[22m[2m | [22m[36m57.77 kB[39m[2m | [22m
+
+Application bundle generation complete. [1.308 seconds]
+
+Component update sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m         [2m | [22m[1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m          [2m | [22m [36m3.04 kB[39m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m         [2m | [22m[1mRaw size[22m
+[32mchunk-BXUUEQ4O.js[39m  [2m | [22m[2mwork-component[22m[2m | [22m[36m41.21 kB[39m[2m | [22m
+
+Application bundle generation complete. [2.325 seconds]
+
+Component update sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m             [2m | [22m[1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m              [2m | [22m [36m3.04 kB[39m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m             [2m | [22m[1mRaw size[22m
+[32mchunk-A2U2ZMUA.js[39m  [2m | [22m[2mservices-component[22m[2m | [22m[36m36.75 kB[39m[2m | [22m
+
+Application bundle generation complete. [0.955 seconds]
+
+Component update sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m            [2m | [22m[1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m             [2m | [22m [36m3.04 kB[39m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m            [2m | [22m[1mRaw size[22m
+[32mchunk-WUZPO3DD.js[39m  [2m | [22m[2mcontact-component[22m[2m | [22m[36m48.24 kB[39m[2m | [22m
+
+Application bundle generation complete. [1.365 seconds]
+
+Component update sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m             [2m | [22m[1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m              [2m | [22m [36m3.04 kB[39m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m             [2m | [22m[1mRaw size[22m
+[32mchunk-JCGLK56D.js[39m  [2m | [22m[2mhome-component[22m    [2m | [22m[36m57.59 kB[39m[2m | [22m
+[32mchunk-6B52MOR2.js[39m  [2m | [22m[2mcontact-component[22m [2m | [22m[36m48.17 kB[39m[2m | [22m
+[32mchunk-APJN7K6W.js[39m  [2m | [22m[2mwork-component[22m    [2m | [22m[36m41.12 kB[39m[2m | [22m
+[32mchunk-6TJDAMWY.js[39m  [2m | [22m[2mservices-component[22m[2m | [22m[36m36.66 kB[39m[2m | [22m
+[32mchunk-PYTIQ3GZ.js[39m  [2m | [22m[2mstudio-component[22m  [2m | [22m[36m31.97 kB[39m[2m | [22m
+
+Application bundle generation complete. [2.309 seconds]
+
+Component update sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+
+No output file changes.
+
+Application bundle generation complete. [2.245 seconds]
+
+Page reload sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m         [2m | [22m[1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m          [2m | [22m [36m3.04 kB[39m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m         [2m | [22m[1mRaw size[22m
+[32mchunk-KJN3O6ET.js[39m  [2m | [22m[2mwork-component[22m[2m | [22m[36m40.72 kB[39m[2m | [22m
+
+Application bundle generation complete. [2.912 seconds]
+
+Component update sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m             [2m | [22m[1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m              [2m | [22m [36m3.04 kB[39m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m             [2m | [22m[1mRaw size[22m
+[32mchunk-ERU554N7.js[39m  [2m | [22m[2mhome-component[22m    [2m | [22m[36m57.22 kB[39m[2m | [22m
+[32mchunk-BSNRFALM.js[39m  [2m | [22m[2mcontact-component[22m [2m | [22m[36m47.80 kB[39m[2m | [22m
+[32mchunk-VZ2RZUNA.js[39m  [2m | [22m[2mwork-component[22m    [2m | [22m[36m40.35 kB[39m[2m | [22m
+[32mchunk-LU3KU7O6.js[39m  [2m | [22m[2mservices-component[22m[2m | [22m[36m36.29 kB[39m[2m | [22m
+[32mchunk-YKVXICAN.js[39m  [2m | [22m[2mstudio-component[22m  [2m | [22m[36m31.59 kB[39m[2m | [22m
+
+Application bundle generation complete. [2.262 seconds]
+
+Component update sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+Application bundle generation failed. [3.645 seconds]
+
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/home/home.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component HomeComponent.
+
+    src/app/home/home.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./home.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+Application bundle generation failed. [0.862 seconds]
+
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/home/home.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component HomeComponent.
+
+    src/app/home/home.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./home.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/work/work.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component WorkComponent.
+
+    src/app/work/work.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./work.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+Application bundle generation failed. [0.687 seconds]
+
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/home/home.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component HomeComponent.
+
+    src/app/home/home.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./home.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/services/services.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component ServicesComponent.
+
+    src/app/services/services.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./services.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/work/work.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component WorkComponent.
+
+    src/app/work/work.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./work.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+Application bundle generation failed. [0.555 seconds]
+
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/home/home.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component HomeComponent.
+
+    src/app/home/home.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./home.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/services/services.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component ServicesComponent.
+
+    src/app/services/services.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./services.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/studio/studio.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component StudioComponent.
+
+    src/app/studio/studio.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./studio.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/work/work.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component WorkComponent.
+
+    src/app/work/work.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./work.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+Application bundle generation failed. [0.827 seconds]
+
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/contact/contact.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component ContactComponent.
+
+    src/app/contact/contact.component.ts:12:15:
+[37m      12 │   templateUrl: [32m'./contact.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/home/home.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component HomeComponent.
+
+    src/app/home/home.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./home.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/services/services.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component ServicesComponent.
+
+    src/app/services/services.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./services.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/studio/studio.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component StudioComponent.
+
+    src/app/studio/studio.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./studio.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/work/work.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component WorkComponent.
+
+    src/app/work/work.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./work.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+Application bundle generation failed. [1.181 seconds]
+
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/contact/contact.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component ContactComponent.
+
+    src/app/contact/contact.component.ts:12:15:
+[37m      12 │   templateUrl: [32m'./contact.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/services/services.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component ServicesComponent.
+
+    src/app/services/services.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./services.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/studio/studio.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component StudioComponent.
+
+    src/app/studio/studio.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./studio.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/work/work.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component WorkComponent.
+
+    src/app/work/work.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./work.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+Application bundle generation failed. [0.847 seconds]
+
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/contact/contact.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component ContactComponent.
+
+    src/app/contact/contact.component.ts:12:15:
+[37m      12 │   templateUrl: [32m'./contact.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/services/services.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component ServicesComponent.
+
+    src/app/services/services.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./services.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/studio/studio.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component StudioComponent.
+
+    src/app/studio/studio.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./studio.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+Application bundle generation failed. [0.577 seconds]
+
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/contact/contact.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component ContactComponent.
+
+    src/app/contact/contact.component.ts:12:15:
+[37m      12 │   templateUrl: [32m'./contact.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/studio/studio.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component StudioComponent.
+
+    src/app/studio/studio.component.ts:9:15:
+[37m      9 │   templateUrl: [32m'./studio.component.html'[37m,
+        ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+Application bundle generation failed. [0.506 seconds]
+
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'app-site-header' is not a known element:
+1. If 'app-site-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-site-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/contact/contact.component.html:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+  Error occurs in the template of component ContactComponent.
+
+    src/app/contact/contact.component.ts:12:15:
+[37m      12 │   templateUrl: [32m'./contact.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m             [2m | [22m [1mRaw size[22m
+[32mpolyfills.js[39m       [2m | [22m[2mpolyfills[22m         [2m | [22m [36m89.77 kB[39m[2m | [22m
+[32mstyles.css[39m         [2m | [22m[2mstyles[22m            [2m | [22m [36m30.55 kB[39m[2m | [22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m              [2m | [22m  [36m3.04 kB[39m[2m | [22m
+
+[1m [22m                  [2m | [22m[1mInitial total[22m     [2m | [22m[1m123.37 kB[22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m             [2m | [22m [1mRaw size[22m
+[32mchunk-QF57SJ26.js[39m  [2m | [22m[2mhome-component[22m    [2m | [22m [36m53.27 kB[39m[2m | [22m
+[32mchunk-IZJ6D5Q6.js[39m  [2m | [22m[2mcontact-component[22m [2m | [22m [36m43.88 kB[39m[2m | [22m
+[32mchunk-ERIFIAA4.js[39m  [2m | [22m[2mwork-component[22m    [2m | [22m [36m36.41 kB[39m[2m | [22m
+[32mchunk-I43NYDPF.js[39m  [2m | [22m[2mservices-component[22m[2m | [22m [36m32.35 kB[39m[2m | [22m
+[32mchunk-VB5Q4GUA.js[39m  [2m | [22m[2mstudio-component[22m  [2m | [22m [36m27.66 kB[39m[2m | [22m
+[32mchunk-GNHWWFUO.js[39m  [2m | [22m[2m-[22m                 [2m | [22m [36m17.76 kB[39m[2m | [22m
+
+Application bundle generation complete. [0.921 seconds]
+
+Page reload sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m         [2m | [22m[1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m          [2m | [22m [36m3.04 kB[39m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m         [2m | [22m[1mRaw size[22m
+[32mchunk-BIJG2IKN.js[39m  [2m | [22m[2mhome-component[22m[2m | [22m[36m53.28 kB[39m[2m | [22m
+
+Application bundle generation complete. [0.730 seconds]
+
+Component update sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m         [2m | [22m[1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m          [2m | [22m [36m3.04 kB[39m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m         [2m | [22m[1mRaw size[22m
+[32mchunk-OP2PJ5NY.js[39m  [2m | [22m[2mwork-component[22m[2m | [22m[36m36.42 kB[39m[2m | [22m
+
+Application bundle generation complete. [0.730 seconds]
+
+Component update sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m             [2m | [22m[1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m              [2m | [22m [36m3.04 kB[39m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m             [2m | [22m[1mRaw size[22m
+[32mchunk-LIYZ3JJ6.js[39m  [2m | [22m[2mservices-component[22m[2m | [22m[36m32.36 kB[39m[2m | [22m
+
+Application bundle generation complete. [0.770 seconds]
+
+Component update sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m           [2m | [22m[1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m            [2m | [22m [36m3.04 kB[39m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m           [2m | [22m[1mRaw size[22m
+[32mchunk-CFQSJVVT.js[39m  [2m | [22m[2mstudio-component[22m[2m | [22m[36m27.66 kB[39m[2m | [22m
+
+Application bundle generation complete. [0.695 seconds]
+
+Component update sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m            [2m | [22m[1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m             [2m | [22m [36m3.04 kB[39m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m            [2m | [22m[1mRaw size[22m
+[32mchunk-OTRSBFTS.js[39m  [2m | [22m[2mcontact-component[22m[2m | [22m[36m43.89 kB[39m[2m | [22m
+
+Application bundle generation complete. [1.094 seconds]
+
+Component update sent to client(s).

@@ -4,11 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { RouterLink } from '@angular/router';
 import { finalize } from 'rxjs';
+import { SiteHeaderComponent } from '../site-header/site-header.component';
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [CommonModule, FormsModule, RouterLink],
+  imports: [CommonModule, FormsModule, RouterLink, SiteHeaderComponent],
   templateUrl: './contact.component.html',
 })
 export class ContactComponent {
